@@ -9,7 +9,8 @@
 Написать короткий REST (2–3 ручки) для проверки результата.
 ## Структура проекта
 
-<img width="372" height="528" alt="изображение" src="https://github.com/user-attachments/assets/0c023b8c-5f7c-4c3c-a23d-96483bb3d61d" /> 
+<img width="356" height="563" alt="изображение" src="https://github.com/user-attachments/assets/940aa8bc-13fe-4b5d-a707-d1bf16899ad9" />
+
 
 
 <img width="1872" height="670" alt="изображение" src="https://github.com/user-attachments/assets/9034897e-b544-430a-b959-a33fed0b0d7e" /> 
