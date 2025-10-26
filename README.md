@@ -34,6 +34,7 @@ $env:DB_DSN="host=<IP_или_домен> user=myuser password=MyStrongPassword d
    go run ./cmd/server
    ```
 4. Проверка
+   
    <img width="484" height="474" alt="изображение" src="https://github.com/user-attachments/assets/15fe1d53-d850-40b9-9ee8-54b70bec5b25" />
 
 
