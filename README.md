@@ -22,13 +22,20 @@ GRANT ALL PRIVILEGES ON SCHEMA public TO myuser;
 ```
 
 2.  Переменная окружения
+Windows PowerShell:
 ```
 setx DB_DSN "host=<IP_или_домен> user=myuser password=MyStrongPassword dbname=pz6_gorm port=5432 sslmode=disable"
 $env:DB_DSN="host=<IP_или_домен> user=myuser password=MyStrongPassword dbname=pz6_gorm port=5432 sslmode=disable"
-
 ```
+3. Запуск проекта
+   Внутри проекта:
+   ```
+   go mod tidy
+   go run ./cmd/server
+   ```
+4. Проверка
+   <img width="484" height="474" alt="изображение" src="https://github.com/user-attachments/assets/15fe1d53-d850-40b9-9ee8-54b70bec5b25" />
 
-Windows PowerShell:
 
 <img width="1872" height="670" alt="изображение" src="https://github.com/user-attachments/assets/9034897e-b544-430a-b959-a33fed0b0d7e" /> 
 
