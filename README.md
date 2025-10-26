@@ -11,7 +11,24 @@
 
 <img width="356" height="563" alt="изображение" src="https://github.com/user-attachments/assets/940aa8bc-13fe-4b5d-a707-d1bf16899ad9" />
 
+### 1.  Установка и настройка БД
+На удалённом сервере PostgreSQL:
+```sql
+CREATE DATABASE pz6_gorm;
+CREATE USER myuser WITH PASSWORD 'MyStrongPassword';
+GRANT ALL PRIVILEGES ON DATABASE pz6_gorm TO myuser;
+ALTER DATABASE pz6_gorm OWNER TO myuser;
+GRANT ALL PRIVILEGES ON SCHEMA public TO myuser;
+```
 
+2.  Переменная окружения
+```
+setx DB_DSN "host=<IP_или_домен> user=myuser password=MyStrongPassword dbname=pz6_gorm port=5432 sslmode=disable"
+$env:DB_DSN="host=<IP_или_домен> user=myuser password=MyStrongPassword dbname=pz6_gorm port=5432 sslmode=disable"
+
+```
+
+Windows PowerShell:
 
 <img width="1872" height="670" alt="изображение" src="https://github.com/user-attachments/assets/9034897e-b544-430a-b959-a33fed0b0d7e" /> 
 
