@@ -55,7 +55,6 @@ ORM (Object-Relational Mapping) — это технология, которая 
 
    <img width="778" height="772" alt="изображение" src="https://github.com/user-attachments/assets/a32fb5d9-0a53-4dd9-a66f-db1f4fe443cc" />
 
-
-<img width="1872" height="670" alt="изображение" src="https://github.com/user-attachments/assets/9034897e-b544-430a-b959-a33fed0b0d7e" /> 
+4. Ответы сервера
 
 <img width="1705" height="569" alt="изображение" src="https://github.com/user-attachments/assets/040fd554-8fcf-4b87-85f7-e8f1b0ef6b98" /> 
